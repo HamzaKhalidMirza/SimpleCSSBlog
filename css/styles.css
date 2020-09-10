@@ -1,0 +1,29 @@
+.container {
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    border: 15px solid #ccc;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.post .date {
+    color: #3888d9;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.post .title {
+    font-size: 30px;
+    color: #09325c;
+}
+.post .quote {
+    border-left: 5px solid #ccc;
+    padding-left: 10px;
+}
+hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
